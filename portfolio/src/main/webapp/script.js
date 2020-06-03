@@ -12,6 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+import React from "react";
+import ReactDOM from "react-dom";
+
+import AppContainer from "./src/AppContainer"
+
+ReactDOM.render(<AppContainer />, document.getElementById("root"));
 /**
  * Adds a random greeting to the page.
  */
